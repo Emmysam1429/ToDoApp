@@ -1,0 +1,9 @@
+steps to update project on github (which you aleady uploded on your github reposatory )
+
+step 1 -  run git status
+
+step 2 - run git add .
+
+step 3 - run git commit -m "your file name"(which one you update in your project)
+
+step 4 - git push origin master
