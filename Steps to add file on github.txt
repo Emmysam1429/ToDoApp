@@ -1,0 +1,28 @@
+Steps to upload project on github
+
+open a git bash
+
+run git --version
+
+if you do not want to upload some file on git hub so you have to make .git ignore file and add the folder in it and give / at the end 
+
+Run git config --global user.name Imran Alam
+
+Run git config --global user.email imran999023@gmail.com
+
+Run git init commond (to initialize the git repositery) on git bash 
+
+Run git add . (to all the file in staging area)
+
+Run git commit -m "Initial Commit" (it will make the commit)
+
+Run git status (optional -> just to see status of you git it will give you the message working tree clean it means every thing is going right)
+
+
+the go to git hub site to find new ssh keys (ssh-keygen -t rsa -b 4096 -C "imran999023@gmail.com") run this command on git bash
+
+tail<path to id_rsa.pub> # add this key to github where you making the repositery
+
+run git remote add orign <ssh url.git(you will find this path on your reposetery)>
+
+run git push origin master
